@@ -1,0 +1,21 @@
+.section-hero{
+    background-image: url(asset/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section-confiance{
+    background-image: url(asset/Pexels\ Photo\ by\ gdtography-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.white{
+    color: white;
+}
+
+.border{
+    border: 2px solid #000
+}
