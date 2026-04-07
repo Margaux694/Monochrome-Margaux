@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .section-hero{
     background-image: url(asset/Rectangle\ 1.png);
     background-size: cover;
@@ -18,4 +30,70 @@
 
 .border{
     border: 2px solid #000
+}
+
+/*flex box*/
+
+.align-center{
+    align-items: center; 
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-betwenn{
+    justify-content: space-between;
+}
+
+.gap-8{
+    gap: 10px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/*texte*/
+
+a{
+    text-decoration: none;
+}
+
+.black{
+    color: black;
+}
+
+/* magin & padding*/
+
+.p-20{
+    padding: 20px;
+}
+
+/* taille */
+
+.w-40{
+    width: 40%;
+}
+
+.card{
+background-color: white;
+width: 33%;
+text-align: center;
+
+}
+.btn-black{
+    background-color: #000;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+
+}
+.btn-white{
+    background-color: #000;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+
 }
