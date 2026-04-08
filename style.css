@@ -66,6 +66,7 @@ a{
 
 .container-1200{
     max-width: 1200px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -126,5 +127,8 @@ width: 30%;
     border-radius: 10px;
     color: white;
     padding: 10px 20px;
+}
 
+.w-45{
+    width: 45px;
 }
